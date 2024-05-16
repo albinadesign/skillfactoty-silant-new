@@ -1,0 +1,75 @@
+
+  
+  .headerTop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-right: -90px;
+  }
+  
+  .phone {
+    flex-grow: 1;
+    text-align: center;
+    font-family: PT-Astra-Sans_Bold, sans-serif;
+    font-size: 18px;
+    opacity: 0.7;
+  }
+  
+  .authButton {
+    background-color: var(--bright-red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    transition: opacity 0.3s;
+  }
+
+  .authButton:hover {
+    opacity: 0.8;
+  }
+  
+  .headerBottom {
+    width: 100%;
+    text-align: left;
+    opacity: 0.5;
+  }
+
+  @media (max-width: 1200px) {
+    .headerTop {
+      margin-top: -15px;
+      width: 335px;
+    }
+
+    .logo {
+      width: 130px;
+      padding-right: 40px;
+    }
+
+    .phone {
+      font-size: 14px;
+      margin-top: 60px;
+      margin-left: -110px;
+    }
+
+    .authButton {
+      width: 130px;
+      height: 40px;
+      font-size: 12px;
+    }
+
+    .headerBottom {
+      margin-top: 0px;
+      font-size: 12px;
+    }
+  
+  
+  }  

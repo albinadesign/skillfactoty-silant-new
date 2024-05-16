@@ -1,0 +1,187 @@
+.home {
+    color: white;
+    text-align: center;
+}
+
+.home-header {
+    margin-bottom: 20px;
+}
+  
+.search-box {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.search-input {
+    padding: 9px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.search-button {
+    width: 200px;
+    background-color: var(--bright-red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    opacity: 0.8;
+}
+
+.reset-button {
+  width: 200px;
+  background-color: white;
+  color: grey;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  opacity: 0.8;
+}
+
+.home-text {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.placeholder-table {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 8px;
+    border: 1px solid black;
+    max-width: 260px;
+  }
+  
+  .data-table th {
+    background-color: var(--cream);
+  }
+  
+  .data-table th, .data-table td {
+    min-width: 165px;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal; 
+  }
+  
+  .data-table tbody {
+    background-color: white;
+  }
+
+  .filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .filter-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .filter-container select {
+    padding: 5px;
+    margin-top: 5px;
+    min-width: 200px;
+  }   
+  
+  @media (max-width: 1200px) {
+    .home-header {
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .home-text {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    .search-box {
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+
+    .search-input {
+      padding-right: 10px;
+      margin-right: 10px;
+      width: 150px;
+    }
+  
+    .search-button {
+        width: 100px;
+    }
+
+    .reset-button {
+      width: 100px;
+      margin-top: 20px;
+    }
+
+    .filter-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+      width: 320px;
+    }
+  
+    .filter-container label {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 14px;
+    }
+  
+    .data-table th, .data-table td {
+      font-size: 14px;
+    }
+
+    .filter-container select {
+      padding: 5px;
+      margin-top: 5px;
+      min-width: 150px;
+    } 
+
+    .table-container {
+      width: 100%;
+    }
+
+    .data-table th, .data-table td {
+      padding: 5px;
+      max-width: 200px;
+    }
+
+    .select-label {
+      max-width: 100px;
+    }
+
+  }

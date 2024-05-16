@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 10px 20px;
+    min-height: 15vh;
+  }
+  
+  .footerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  
+  .footerRight {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .whiteLogo {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1200px) {
+    .whiteLogo {
+      width: 150px;
+    }
+
+    .footerRight {
+      font-size: 12px;
+    }
+
+    .footerLeft {
+      font-size: 12px;
+    }
+  }

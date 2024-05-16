@@ -1,0 +1,41 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Environments
+.env
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# Django specific
+*.sqlite3
+
+# Ignore all migrations except for the ones in the default app
+*/migrations/*
+!/migrations/__init__.py
+
+# Static files
+staticfiles
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,75 @@
+.detailed-info-tabs-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+.user-info {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.tech-info-header {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.custom-tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.custom-tabs .nav {
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.custom-tabs .nav-item {
+    list-style-type: none;
+}
+  
+.custom-tabs .nav-link {
+    color: var(--dark-blue);
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-tabs .nav-link.active {
+    background-color: var(--bright-red);
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .user-info {
+        margin-bottom: 10px;
+    }
+
+
+    .custom-tabs .nav-link {
+        width: 100px;
+        height: 50px;
+    }
+}
