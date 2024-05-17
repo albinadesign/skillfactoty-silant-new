@@ -19,7 +19,7 @@
 
 git clone https://github.com/albinadesign/skillfactoty-silant-new.git
 
-cd skillfactoty-silant
+cd skillfactoty-silant-new
 
 
 
