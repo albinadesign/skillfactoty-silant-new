@@ -17,7 +17,7 @@
 
 Сначала клонируйте репозиторий на свой локальный компьютер:
 
-git clone https://github.com/albinadesign/skillfactoty-silant.git
+git clone https://github.com/albinadesign/skillfactoty-silant-new.git
 
 cd skillfactoty-silant
 
