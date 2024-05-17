@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.263f7fd0.css",
+    "main.js": "/static/js/main.c3df1f44.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/PT-Astra-Sans_Bold-Italic.ttf": "/static/media/PT-Astra-Sans_Bold-Italic.7892b25550dfd9f76e49.ttf",
+    "static/media/PT-Astra-Sans_Italic.ttf": "/static/media/PT-Astra-Sans_Italic.c31dc32fcc773ada67e3.ttf",
+    "static/media/PT-Astra-Sans_Bold.ttf": "/static/media/PT-Astra-Sans_Bold.cf7525867e528509bfac.ttf",
+    "static/media/PT-Astra-Sans_Regular.ttf": "/static/media/PT-Astra-Sans_Regular.3c74124e06cc99076444.ttf",
+    "static/media/white_logo.svg": "/static/media/white_logo.e2d1a9e54c53e1197c5f1f21543d017b.svg",
+    "static/media/logo.svg": "/static/media/logo.6bccf00c98e548345ee755fcc4441fb7.svg",
+    "index.html": "/index.html",
+    "main.263f7fd0.css.map": "/static/css/main.263f7fd0.css.map",
+    "main.c3df1f44.js.map": "/static/js/main.c3df1f44.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.263f7fd0.css",
+    "static/js/main.c3df1f44.js"
+  ]
+}
