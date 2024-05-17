@@ -21,7 +21,7 @@ git clone https://github.com/albinadesign/skillfactoty-silant.git
 
 cd skillfactoty-silant
 
-cd Diplom
+
 
 ### Шаг 2: Настройте backend
 
