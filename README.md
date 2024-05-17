@@ -56,11 +56,6 @@ pip install -r requirements.txt
 python manage.py migrate
 
 
-Создайте суперпользователя:
-
-python manage.py createsuperuser
-
-
 Запустите сервер разработки:
 
 python manage.py runserver
@@ -82,10 +77,6 @@ npm install
 
 npm start
 
-
-Для продакшн-среды создайте оптимизированную сборку:
-
-npm run build
 
 
 ### Шаг 4: Откройте приложения
